@@ -30,3 +30,26 @@ yarn-error.log*
 
 # 本地环境文件
 .env
+
+# dependencies
+/node_modules
+
+# production
+/dist
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Wrangler
+.wrangler
